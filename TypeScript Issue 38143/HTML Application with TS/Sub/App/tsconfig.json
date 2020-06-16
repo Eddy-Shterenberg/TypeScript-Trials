@@ -1,0 +1,21 @@
+﻿{
+  "compileOnSave": true,
+  "include": [ "./**/*.ts" ],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "System",
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "composite": true,
+    "declaration": true,
+    "outFile": "theApp.js"
+  },
+  "references": [
+    { "path": "../Util/Dates" },
+    { "path": "../Util/Strings" }
+  ]
+}
